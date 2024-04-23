@@ -1,0 +1,150 @@
+/*  General class  */
+
+.clear-both {
+    clear: both;
+}
+
+/* Arrow icon */
+
+.arrow {
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.arrow > a {
+    color: #c3c3c3;
+    transition: .5s;
+}
+
+.arrow > a:hover {
+    color: #009933;
+}
+
+/* follow class */
+
+.follow {
+    float: left;
+    margin: 20px 20px;
+}
+
+.follow > a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+.follow > a > p {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.follow > a > p:hover {
+    background-color: maroon;
+    color: white;
+    border-color: maroon;
+}
+
+/* Picture and some info */
+
+.post > .post-header > img {
+	border-radius: 50%;
+	width: 100px;
+	float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.post > .post-header > .info {
+	float: right;
+	margin-right: 15px;
+    margin-top: 10px;   
+}
+
+.post {
+    margin-top: -30px;
+}
+
+.info > .advocators {
+	font-weight: normal;
+    color: gray;
+    margin-right: 5px;
+}
+
+.info h5 {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.info > .line {
+    display: inline-block;
+    border-right: 1px solid #c3c3c3;
+    padding: 0px 5px;
+    color: #c3c3c3;
+}
+
+/* Make Vertical line */
+
+.line {
+    display: inline-block;
+    border-right: 1px solid #c3c3c3;
+    padding: 0px 5px;
+    color: black;
+}
+
+/* Bootstrap row and col(some info) */
+
+.first-col {
+    color: gray;
+}
+
+.seconde-col , .third-col , .forth-col {
+    color: black;
+}   
+
+.first-col , .seconde-col {
+    margin-top: 20px;
+}
+
+.team > img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.row {
+    margin: 0;
+}
+
+.team , .position , .foot {
+    float: left;
+}
+
+.foot {
+    color: gray;
+}
+
+.weight {
+    color: black;
+    float: left;
+}
+
+.heigt {
+    color: black;
+    float: left;
+}
+
+@media only screen and (max-width:767px) {
+    .first-col, .seconde-col {
+        margin-top: 0px;
+    }
+
+    .personal-info {
+        margin-top: 20px;
+    }
+}
